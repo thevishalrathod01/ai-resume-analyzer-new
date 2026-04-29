@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e1b4b);
+  color: white;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.hero {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  color: #cbd5e1;
+  font-size: 18px;
+}
+
+.upload-card {
+  margin: 40px auto;
+  padding: 30px;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+input {
+  margin: 15px 0;
+}
+
+.file-name {
+  color: #93c5fd;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.result-card {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  background: white;
+  color: #111827;
+  border-radius: 20px;
+}
+
+pre {
+  white-space: pre-wrap;
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+}
